@@ -1,0 +1,84 @@
+[0;34m============================================[0m
+[0;34mYOLO11 消融实验 - 批量训练脚本[0m
+[0;34m============================================[0m
+[0;32m开始时间: 2026年 01月 02日 星期五 23:24:16 CST[0m
+[0;32m实验总数: 7[0m
+[0;34m============================================[0m
+
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[1/7] 训练实验: baseline[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11.yaml
+实验目录: runs/IDID/yolo11n-baseline
+日志文件: ablation_logs/train_baseline_20260102_232416.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 31m 22s[0m
+[0;32m权重路径: runs/IDID/yolo11n-baseline/weights/best.pt[0m
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[2/7] 训练实验: fasternet[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11-fasternet.yaml
+实验目录: runs/IDID/yolo11n-fasternet
+日志文件: ablation_logs/train_fasternet_20260102_235538.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 31m 30s[0m
+[0;32m权重路径: runs/IDID/yolo11n-fasternet/weights/best.pt[0m
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[3/7] 训练实验: slimneck[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11-slimneck.yaml
+实验目录: runs/IDID/yolo11n-slimneck
+日志文件: ablation_logs/train_slimneck_20260103_002708.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 31m 44s[0m
+[0;32m权重路径: runs/IDID/yolo11n-slimneck/weights/best.pt[0m
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[4/7] 训练实验: LSCD[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11-LSCD.yaml
+实验目录: runs/IDID/yolo11n-LSCD
+日志文件: ablation_logs/train_LSCD_20260103_005852.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 32m 13s[0m
+[0;32m权重路径: runs/IDID/yolo11n-LSCD/weights/best.pt[0m
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[5/7] 训练实验: fasternet-LSCD[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11-fasternet-LSCD.yaml
+实验目录: runs/IDID/yolo11n-fasternet-LSCD
+日志文件: ablation_logs/train_fasternet-LSCD_20260103_013105.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 31m 9s[0m
+[0;32m权重路径: runs/IDID/yolo11n-fasternet-LSCD/weights/best.pt[0m
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[6/7] 训练实验: slimneck-LSCD[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11-slimneck-LSCD.yaml
+实验目录: runs/IDID/yolo11n-slimneck-LSCD
+日志文件: ablation_logs/train_slimneck-LSCD_20260103_020214.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 31m 3s[0m
+[0;32m权重路径: runs/IDID/yolo11n-slimneck-LSCD/weights/best.pt[0m
+
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m[7/7] 训练实验: fasternet-slimneck-LSCD[0m
+[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+配置文件: ultralytics/cfg/models/11/yolo11-fasternet-slimneck-LSCD.yaml
+实验目录: runs/IDID/yolo11n-fasternet-slimneck-LSCD
+日志文件: ablation_logs/train_fasternet-slimneck-LSCD_20260103_023317.log
+[0;32m▶️  开始训练...[0m
+[0;32m✅ 训练成功完成![0m
+[0;32m训练时长: 0h 31m 10s[0m
+[0;32m权重路径: runs/IDID/yolo11n-fasternet-slimneck-LSCD/weights/best.pt[0m

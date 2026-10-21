@@ -1,0 +1,38 @@
+Ultralytics 8.3.9 🚀 Python-3.10.16 torch-2.2.2+cu121 CUDA:0 (NVIDIA GeForce RTX 4090, 24081MiB)
+YOLO11-fasternet-slimneck-LSCD summary: 325 layers, 3,727,706 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [0mScanning <DATASET_ROOT>/val/labels.cache... 144 images, 0 backgrounds, 0 corrupt: 100%|██████████| 144/144 [00:00<?, ?it/s][34m[1mval: [0mScanning <DATASET_ROOT>/val/labels.cache... 144 images, 0 backgrounds, 0 corrupt: 100%|██████████| 144/144 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/9 [00:00<?, ?it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  11%|█         | 1/9 [00:01<00:08,  1.02s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  22%|██▏       | 2/9 [00:01<00:03,  1.84it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  33%|███▎      | 3/9 [00:01<00:02,  2.45it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  44%|████▍     | 4/9 [00:01<00:01,  3.01it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 6/9 [00:01<00:00,  5.40it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:01<00:00,  7.48it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [00:02<00:00,  4.28it/s]
+                   all        144        490       0.92      0.824      0.885      0.575
+             insulator        144        164      0.995          1      0.995      0.946
+                broken         75         96       0.86      0.802       0.87      0.458
+   pollution-flashover         68        230      0.906       0.67      0.789      0.321
+Speed: 0.4ms preprocess, 3.1ms inference, 0.0ms loss, 1.7ms postprocess per image
+Results saved to [1mruns/val/yolo11n-fasternet-slimneck-LSCD[0m
+YOLO11-fasternet-slimneck-LSCD summary: 325 layers, 3,727,706 parameters, 0 gradients, 8.1 GFLOPs
+--------------------论文上的数据以以下结果为准--------------------
+--------------------论文上的数据以以下结果为准--------------------
+--------------------论文上的数据以以下结果为准--------------------
+--------------------论文上的数据以以下结果为准--------------------
+--------------------论文上的数据以以下结果为准--------------------
++-------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                 Model Info                                                                |
++--------+------------+-------------------+-----------------+-------------------+-----------------------------+-----------+-----------------+
+| GFLOPs | Parameters | 前处理时间/一张图 | 推理时间/一张图 | 后处理时间/一张图 | FPS(前处理+模型推理+后处理) | FPS(推理) | Model File Size |
++--------+------------+-------------------+-----------------+-------------------+-----------------------------+-----------+-----------------+
+|  8.1   | 3,727,706  |     0.000359s     |    0.003117s    |     0.001693s     |            193.47           |   320.83  |      7.4MB      |
++--------+------------+-------------------+-----------------+-------------------+-----------------------------+-----------+-----------------+
++----------------------------------------------------------------------------------+
+|                                  Model Metrice                                   |
++---------------------+-----------+--------+----------+--------+--------+----------+
+|      Class Name     | Precision | Recall | F1-Score | mAP50  | mAP75  | mAP50-95 |
++---------------------+-----------+--------+----------+--------+--------+----------+
+|      insulator      |   0.9945  | 1.0000 |  0.9973  | 0.9950 | 0.9950 |  0.9457  |
+|        broken       |   0.8596  | 0.8021 |  0.8298  | 0.8704 | 0.4326 |  0.4577  |
+| pollution-flashover |   0.9059  | 0.6697 |  0.7701  | 0.7894 | 0.1852 |  0.3213  |
+|    all(平均数据)    |   0.9200  | 0.8239 |  0.8657  | 0.8850 | 0.5376 |  0.5749  |
++---------------------+-----------+--------+----------+--------+--------+----------+
+-------------------- 结果已保存至runs/val/yolo11n-fasternet-slimneck-LSCD/paper_data.txt... --------------------
+-------------------- 结果已保存至runs/val/yolo11n-fasternet-slimneck-LSCD/paper_data.txt... --------------------
+-------------------- 结果已保存至runs/val/yolo11n-fasternet-slimneck-LSCD/paper_data.txt... --------------------
+-------------------- 结果已保存至runs/val/yolo11n-fasternet-slimneck-LSCD/paper_data.txt... --------------------
+-------------------- 结果已保存至runs/val/yolo11n-fasternet-slimneck-LSCD/paper_data.txt... --------------------
